@@ -1,5 +1,5 @@
-# download_images
-download images or files from config file or any file
+# Download_images
+Download images or files from config file or any file
 
 Steps to execute:
   1. Configure all urls in file 'url.config'
