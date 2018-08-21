@@ -12,6 +12,7 @@
 cd "${0%/*}"
 
 #get all urls or links from url.config or any other file and in "for loop" each url is downloaded and renamed
+#Images are saved in same directory from where this script is executed. File format is as follows req_img_`timestamp`.jpg
 for urls in $(cat url.config);
 do
 	echo $urls
